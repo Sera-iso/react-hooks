@@ -31,7 +31,7 @@ function FavoriteAnimal({animal, onAnimalChange}) {
    return <div>{`Your favorite animal is: ${animal}!`}</div>
  }
 
-function App({name, onNameChange}) {
+function App() {
   const [animal, setAnimal] = React.useState('')
   return (
     <form>
